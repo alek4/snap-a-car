@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "snap-a-car",
+    "slug": "snap-a-car",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +23,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.alekk.carrecogapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "API_KEY_GOOGLE"
+        }
       }
     },
     "web": {
